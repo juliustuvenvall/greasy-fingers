@@ -1,0 +1,193 @@
+
+@font-face {
+  font-family: 'Cooper Black';
+  src: url(https://cdn.glitch.com/c3da3878-bf2c-4d3b-a00d-2347c0e0dd9b%2Fcooper-black.ttf?v=1569852180493);
+}
+
+@font-face{
+  font-family: 'Vollkorn';
+  src: url(https://cdn.glitch.com/c3da3878-bf2c-4d3b-a00d-2347c0e0dd9b%2FVollkorn-BlackItalic.ttf?v=1570006360575);
+}
+
+@font-face{
+  font-family: 'ChelaOne';
+  src: url(https://cdn.glitch.com/c3da3878-bf2c-4d3b-a00d-2347c0e0dd9b%2FChelaOne-Regular.ttf?v=1570023780278);
+}
+
+body {
+  
+  background:#2eb182;
+  position: absolute;
+  top:0px; 
+  left: 0px;
+  right: 0px;
+  z-index:500;
+  
+
+}
+.content {
+  position: absolute;
+  bottom: 150px;
+  background: rgba(0, 0, 0, 0.0);
+  color: #f1f1f1;
+  padding-left: 70px;
+  padding-right: 70px;
+  bottom: -3000px;
+}
+h1 {
+  color: white;
+  font-size: 90px;
+  position: 
+    top: 60px;
+  font-family: 'omnes-pro';
+  font-style: italic;
+  
+}
+h2{
+  font-size: 42px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'omnes-pro';
+  font-style: italic;
+}
+h3{
+  font-size: 43px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  font-family: 'omnes-pro';
+  font-weight: italic;
+  
+}
+
+.osynlig-platta {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background: rgba(0,0,0,0.0);
+
+}
+.play-button a {
+  text-decoration: none;
+  align-item: center;
+}
+p {
+  color: white;
+  font-size: 48px;
+  font-family: 'omnes-pro';
+  font-weight: italic;
+}
+#myVideo {
+  position: absolute;
+  right: 0px;
+  left: -10px;
+  bottom: -3150px;
+  background:#39c285;
+  border: none;
+  width: 103%;
+} 
+.play-button   {
+  position: absolute;
+  align-item: center;
+  right: 0;
+  text-align: center;
+  background:#F6A500;
+  color: white;
+  padding: 1px 40px;
+  font-size: 30px;
+  width: 115px;
+  border-radius: 90px;
+  text-decoration: none;
+}
+.logo {
+  position: fixed;
+  bottom: 70px;
+  left: 75px;
+  z-index: 1000;
+}
+footer {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  bottom: 30px
+}
+.finger {
+  position: fixed;
+  xleft:   450px;
+  xbottom: -200px;
+  z-index: 2;
+}
+.tavla {
+  position: fixed;
+  top:  205px;
+  left: 40px;
+  z-index: 1;
+}
+.home-button a {
+  position: fixed;
+  z-index: 1000000;
+  top:50px;
+  left:50px;
+  text-align: center;
+  background:#F6A500;
+  color: white;
+  padding: 1px 40px;
+  font-size: 30px;
+  width: 130px;
+  border-radius: 90px;
+  text-decoration: none;
+}
+.Restart-button a {
+  position: fixed;
+  z-index: 1000000;
+  top:50px;
+  left:285px;
+  text-align: center;
+  background:#F6A500;
+  color: white;
+  padding: 1px 40px;
+  font-size: 30px;
+  width: 240px;
+  border-radius: 90px;
+  text-decoration: none;
+}
+
+
+.score a {
+  position: fixed;
+  z-index: 1000000;
+  top:50px;
+  right: 50px;
+  text-align: center;
+  background:#F6A500;
+  color: white;
+  padding: 1px 40px;
+  font-size: 30px;
+  width: 220px;
+  border-radius: 90px;
+  text-decoration: none;
+}
+
+  .time a {
+  position: fixed;
+  z-index: 1000000;
+  bottom:5px;
+  right: 50px;
+  text-align: center;
+  background:#F6A500;
+  color: white;
+  padding: 1px 40px;
+  font-size: 30px;
+  width: 220px;
+  border-radius: 90px;
+  text-decoration: none;
+    visibility: hidden;
+}
